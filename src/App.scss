@@ -1,0 +1,63 @@
+body {
+  height: 100%;
+  width: 100vw;
+  background: rgb(245,245,245);
+  background: linear-gradient(0deg, rgba(245,245,245,1) 0%, rgba(173,216,230,1) 100%);
+  background-repeat: no-repeat;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+ 
+}
+
+.med-app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__form-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
+    max-width: 1500px;
+    margin-top: 90px;
+    height: 100%;
+  }
+
+  &__bottom {
+    height: 100%;
+    width: 100%;
+  }
+
+  &__user {
+    height: 300px;
+    width:600px;
+    font-family: sans-serif;
+    color: white;
+    & > h2 {
+      margin-top: 0px;
+      font-size: 60px;
+      margin-bottom: 20px;
+    }
+
+    & > p {
+      margin: 0px;
+      font-size: 24px;
+    }
+    }
+
+  img {
+    width: 16px;
+    height:8px;
+  }
+  
+}
